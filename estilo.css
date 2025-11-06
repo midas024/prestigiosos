@@ -1,0 +1,327 @@
+@font-face{
+  font-family:"The Golden Blade";	
+	src:url("fuente/The Golden Blade.ttf");
+
+}
+
+body{
+	margin:0%;
+	font-family:arial, verdana, sans-serif;
+	
+}
+
+
+
+h1{
+font-family:"The Golden Blade";
+line-height:35px;
+margin-right:3%;
+margin-left:3%;
+letter-spacing:5px;
+	
+	
+}
+h2{
+	font-size:28px;
+	margin-left:2%;
+	
+}
+
+
+p{
+ font-size:18px;
+color:white;
+line-height:30px;
+margin-right:2%;
+margin-left:2%;
+text-align:justify;
+
+}
+
+strong{
+	
+color:red;	
+
+}
+
+
+header{
+	width:100%;
+	height:auto;
+	display:flex;
+	background-color:black;
+	background:linear-gradient(blue,red);
+	justify-content:space-evenly;
+    align-items: center;
+}
+
+.logo1{
+	width:10%;
+	height:auto;
+	display:flex;
+}
+
+img{
+	width:100%;
+	height:auto;
+	
+}	
+
+
+nav{
+	width:70%;
+	height:auto;
+    display:flex;
+	justify-content: space-evenly;
+	
+}
+
+nav a:link, nav a:visited {
+	font-weight:bold;
+	text-decoration:none;
+	color:white;
+	width:19%;
+	height:61px;
+	display:flex;
+	background:linear-gradient(#c7b43a, black);
+	justify-content: space-evenly; /*alineación horizontal */
+	align-items:center; /*alineación vertical*/	
+	transition:all 1.3s;
+}
+
+nav a:hover{
+	background:linear-gradient(black, white);
+	color:#c7b43a;
+	font-size:26px;
+	width:20%;
+	transition:all 1.3s;
+}
+
+
+main{
+	width:100%;
+	height:auto;
+	display:flex;
+	background:linear-gradient(red, white);
+	justify-content:space-evenly;
+    align-items: center;
+	
+}
+header{
+	
+	align-items:center;
+	
+}
+h1{
+	    font-size: 49px;
+}
+
+
+
+.texto{
+	width:50%;
+	height:auto;
+	background-color:black;
+	display:flex;
+	color:#c7b43a ;
+    flex-direction: column;	
+}
+
+.foto{
+	width:42%;
+	height:auto;
+	background-color:olive;
+	
+	
+}
+
+footer{
+	width:100%;
+	height:auto;
+	display:flex;
+	background:linear-gradient(white,blue);
+	justify-content:space-evenly;
+    align-items: center;
+	
+}
+
+.logo2{	
+	width:6%;
+	height:auto;
+	background-color:#e81a0c;
+	
+}
+
+.contacto{
+	width:20%;
+	height:auto;
+	display:flex;
+	justify-content:space-evenly;
+    align-items: center;	
+}
+
+
+.contacto img{
+	width:75%;
+	height:auto;
+	
+}
+
+.contacto a:link{
+	width:60%;
+	height:auto;
+		justify-content:space-evenly;
+    align-items: center;	
+}
+
+.otras_murgas{
+	width:17%;
+	height:auto;
+	display:flex;
+	justify-content:space-evenly;
+    align-items: center;	
+}
+
+.otras_murgas img{
+	width:70%;
+	height:auto;
+	
+}
+
+.otras_murgas a:link{
+	width:70%;
+	height:auto;
+	
+}
+
+
+.social{
+	width:45%;
+	height:70px;
+	height:70px;
+	background-color:#e81a0c;	
+	
+}
+
+
+.diferente6{
+	 width: 103px;
+	height: 134px;
+	display:flex;
+	justify-content:space-evenly;
+    align-items: center;
+	
+	
+}
+
+
+
+.diferente7{
+
+	display:flex;
+
+	
+}	
+
+.diferente8{
+	
+flex-wrap: wrap;	
+	
+	
+	
+	
+}
+
+/*mediaqueries*/
+@media screen and (max-width:800px)
+{
+	h1{
+	    font-size: 44px;	
+		font-family: "The Golden Blade";
+		
+	}
+	
+  .texto{
+        background-color:black;
+        width:81%;
+       }	
+ 
+ .logo1{
+	 width:25%;
+ }
+ .foto{
+	 width:88%;
+ }
+  main{
+	  flex-direction:column
+  }
+  
+  nav{
+	 flex-direction:column;
+	 align-items:center;
+  }
+ nav a:link{
+	 width:61%;
+	 height:auto;
+	 padding:1%;
+  }
+  
+  .logo2{
+	  width:15%;
+  }
+  
+ 
+	
+.contacto{
+	width:35%;
+	height:auto;
+	display:flex;
+	justify-content:space-evenly;
+    align-items: center;	
+}
+
+
+.contacto img{
+	width:75%;
+	height:auto;
+	
+}
+
+.contacto a:link{
+	width:60%;
+	height:auto;
+		justify-content:space-evenly;
+    align-items: center;	
+}
+.otras_murgas{
+	width:17%;
+	height:auto;
+	display:flex;
+	
+    justify-content: flex-end;	
+}
+
+.otras_murgas img{
+	width:70%;
+	height:auto;
+	
+}
+
+.otras_murgas a:link{
+	width:70%;
+	height:auto;
+	
+}
+
+
+.social{
+	width:45%;
+	height:70px;
+	height:70px;
+	background-color:#e81a0c;	
+	
+}
+
+  
+}
+
