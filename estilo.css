@@ -10,6 +10,14 @@ body{
 	
 }
 
+video{
+width:424px;
+	
+}
+
+.video{
+  width:424px;
+}
 
 
 h1{
@@ -22,9 +30,11 @@ letter-spacing:5px;
 	
 }
 h2{
-	font-size:28px;
-	margin-left:2%;
-	
+line-height:30px;
+margin-right:3%;
+margin-left:3%;
+letter-spacing:5px;
+	font-family:"The Golden Blade";
 }
 
 
@@ -87,6 +97,7 @@ nav a:link, nav a:visited {
 	justify-content: space-evenly; /*alineación horizontal */
 	align-items:center; /*alineación vertical*/	
 	transition:all 1.3s;
+	
 }
 
 nav a:hover{
@@ -95,6 +106,21 @@ nav a:hover{
 	font-size:26px;
 	width:20%;
 	transition:all 1.3s;
+	font-family:"The Golden Blade";
+}
+.diferente2{
+	font-weight:bold;
+	text-decoration:none;
+	color:#c7b43a;
+	width:20%;
+	height:61px;
+	display:flex;
+	background:linear-gradient(black,white );
+	justify-content: space-evenly; /*alineación horizontal */
+	align-items:center; /*alineación vertical*/	
+	font-family:"The Golden Blade";
+		font-size:26px;
+	
 }
 
 
@@ -102,7 +128,7 @@ main{
 	width:100%;
 	height:auto;
 	display:flex;
-	background:linear-gradient(red, white);
+	background:linear-gradient(red, white );
 	justify-content:space-evenly;
     align-items: center;
 	
@@ -115,8 +141,46 @@ header{
 h1{
 	    font-size: 49px;
 }
+.tarjeta2{
+width: 98%;
+align-items: center;
+margin:1%;
+border-color: #adaba8;
+border-width: 1px;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-evenly;	
+}
+.diferente1{
+font-size:68px;	
+font-family:"The Golden Blade";
+line-height:35px;
+margin-right:3%;
+margin-left:3%;
+letter-spacing:5px;
+	
 
+}
 
+.diferente9{
+	justify-content: space-evenly;
+	align-items: center;
+    flex-direction: column;
+
+}
+
+.diferente11{
+margin:1.2%;
+font-size:18px;
+color:white;
+line-height:30px;
+margin-right:2%;
+margin-left:2%;
+text-align:justify;
+
+	
+	
+}
 
 .texto{
 	width:50%;
@@ -238,7 +302,15 @@ flex-wrap: wrap;
 	h1{
 	    font-size: 44px;	
 		font-family: "The Golden Blade";
-		
+		line-height:39px;
+	}
+	h2{
+	line-height: 30px;
+    margin-right: 3%;
+    margin-left: 3%;
+    letter-spacing: 5px;
+    font-family: "The Golden Blade";	
+	font-size: 27px;
 	}
 	
   .texto{
@@ -247,7 +319,7 @@ flex-wrap: wrap;
        }	
  
  .logo1{
-	 width:25%;
+	 width:35%;
  }
  .foto{
 	 width:88%;
@@ -266,14 +338,28 @@ flex-wrap: wrap;
 	 padding:1%;
   }
   
+nav a:hover{
+	background:linear-gradient(black, white);
+	color:#c7b43a;
+	font-size:26px;
+	width:63%;
+	height:41px;
+	transition:all 1.3s;
+	font-family:"The Golden Blade";
+}
+  
   .logo2{
-	  width:15%;
+	  width:23%;
   }
   
+
+	 
+	 
+	 
  
 	
 .contacto{
-	width:35%;
+	width:58%;
 	height:auto;
 	display:flex;
 	justify-content:space-evenly;
@@ -282,7 +368,7 @@ flex-wrap: wrap;
 
 
 .contacto img{
-	width:75%;
+	width:60%;
 	height:auto;
 	
 }
@@ -294,10 +380,9 @@ flex-wrap: wrap;
     align-items: center;	
 }
 .otras_murgas{
-	width:17%;
+	width:46%;
 	height:auto;
 	display:flex;
-	
     justify-content: flex-end;	
 }
 
@@ -322,6 +407,65 @@ flex-wrap: wrap;
 	
 }
 
-  
+
+footer{
+  width: 100%;
+  height: auto;
+  display: flex;
+  background: linear-gradient(white, blue);
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+		
+}
+.diferente1{
+	    font-size: 64px;
+    font-family: "The Golden Blade";
+    line-height: 35px;
+    margin-right: 7%;
+    margin-left: 4%;
+    letter-spacing: 3px;
+	
+	
+	
+}
+
+
+
+ .diferente2{
+	font-weight:bold;
+	text-decoration:none;
+	color:#c7b43a;
+	width:63%;
+	height:41px;
+	display:flex;
+	background:linear-gradient(black,white );
+	justify-content: space-evenly; /*alineación horizontal */
+	align-items:center; /*alineación vertical*/	
+	font-family:"The Golden Blade";
+    font-size:26px;
+	
+}
+
+.diferente9{
+	justify-content: space-evenly;
+	align-items: center;
+    flex-direction: column;
+	flex-wrap:wrap;
+	
+	
+	
+}
+
+.video{
+  width:388px;
+ 
+}
+video{
+width:369px;
+	
+}
+
+
 }
 
