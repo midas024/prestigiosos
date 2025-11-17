@@ -181,6 +181,32 @@ text-align:justify;
 	
 	
 }
+.diferente3{
+ font-size: 91px;
+ font-family:"The Golden Blade";
+line-height:35px;
+margin-right:3%;
+margin-left:3%;
+letter-spacing:5px;
+	
+}
+
+.diferente4{
+width: 20%;	
+height:auto;
+	background-color:black;
+	color:#c7b43a;
+}
+
+.diferente5{
+	width: 24%;
+	height:auto;
+	background-color:black;
+	display:flex;
+	color:#c7b43a;
+    flex-direction: column;	
+	
+}
 
 .texto{
 	width:50%;
@@ -351,12 +377,6 @@ nav a:hover{
   .logo2{
 	  width:23%;
   }
-  
-
-	 
-	 
-	 
- 
 	
 .contacto{
 	width:58%;
@@ -466,6 +486,32 @@ width:369px;
 	
 }
 
+.diferente3{
+ font-size: 65px;
+ font-family:"The Golden Blade";
+line-height:68px;
+margin-right:3%;
+margin-left:3%;
+letter-spacing:5px;
+	
+}
+
+.diferente4{
+width: 48%;	
+height:auto;
+	background-color:black;
+	color:#c7b43a;
+}
+
+.diferente5{
+	width:48%;
+	height:auto;
+	background-color:black;
+	display:flex;
+	color:#c7b43a;
+    flex-direction: column;	
+	
+}
 
 }
 
