@@ -38,6 +38,7 @@ letter-spacing:5px;
 }
 
 
+
 p{
  font-size:18px;
 color:white;
@@ -53,7 +54,24 @@ strong{
 color:red;	
 
 }
+.diferente14{
 
+width:37%;
+font-size:18px;
+color:black;
+line-height:30px;
+margin-right:2%;
+margin-left:2%;
+text-align:justify;
+background-color:black;
+}	
+
+.diferente16{
+    flex-direction: column;	
+	
+	
+	
+}
 
 header{
 	width:100%;
@@ -79,7 +97,7 @@ img{
 
 
 nav{
-	width:70%;
+	width:66%;
 	height:auto;
     display:flex;
 	justify-content: space-evenly;
@@ -103,7 +121,7 @@ nav a:link, nav a:visited {
 nav a:hover{
 	background:linear-gradient(black, white);
 	color:#c7b43a;
-	font-size:26px;
+	font-size:16px;
 	width:20%;
 	transition:all 1.3s;
 	font-family:"The Golden Blade";
@@ -357,9 +375,10 @@ flex-wrap: wrap;
   nav{
 	 flex-direction:column;
 	 align-items:center;
+	 width:53%;
   }
  nav a:link{
-	 width:61%;
+	 width:57%;
 	 height:auto;
 	 padding:1%;
   }
@@ -368,7 +387,7 @@ nav a:hover{
 	background:linear-gradient(black, white);
 	color:#c7b43a;
 	font-size:26px;
-	width:63%;
+	width:57%;
 	height:41px;
 	transition:all 1.3s;
 	font-family:"The Golden Blade";
@@ -478,6 +497,13 @@ footer{
 }
 
 .video{
+width:388px;	
+	
+	
+}
+
+
+.video{
   width:388px;
  
 }
@@ -510,8 +536,19 @@ height:auto;
 	display:flex;
 	color:#c7b43a;
     flex-direction: column;	
-	
 }
+
+.diferente14{
+width:64%;	
+font-size:18px;
+color:black;
+line-height:30px;
+margin-right:2%;
+margin-left:2%;
+text-align:justify;
+background-color:black;
+}	
+
 
 }
 
